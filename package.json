@@ -16,6 +16,10 @@
         "watch",
         "tscw"
     ],
+    "dependencies": {
+        "fs": "*",
+        "crypto": "*"
+    },
     "author": "Pavel Ptacek <birdie@animalgroup.cz>",
     "license": "WTFPL"
 }
