@@ -6,7 +6,7 @@ Usage
 =====
 Normal usage::
 
-    npm install tscw
+    npm install -g tscw
     tscw <parameters which you would use with tsc>
 
 The parameters which you pass to tscw are transparently sent to tsc compiler.
