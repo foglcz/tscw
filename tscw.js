@@ -53,8 +53,15 @@ function recompile() {
 
     process.stdout.write("  -> recompiling... ");
     exec(tsc, function execDone(error, stdout, stderr) {
-        console.log('done!');
-        console.log(stderr);
+        if(error) {
+            console.log('ERROR!');
+            console.log(stderr);
+        }
+        else {
+            console.log('done.');
+        }
+
+        console.log(stdout);
     });
 }
 
@@ -66,3 +73,7 @@ args.forEach(function(val, index) {
         fs.watch(val, onWatch);
     }
 });
+
+// Afterwards, initialize first compile
+console.log('TSCW is watching for changes, initializing first recompile.');
+recompile();
