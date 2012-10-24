@@ -18,7 +18,8 @@
     ],
     "dependencies": {
         "fs": "*",
-        "crypto": "*"
+        "crypto": "*",
+        "typescript": "*"
     },
     "author": "Pavel Ptacek <birdie@animalgroup.cz>",
     "license": "WTFPL"
