@@ -1,0 +1,21 @@
+{
+    "name": "tscw",
+    "version": "0.1.0",
+    "description": "Typescript watch compiler - temporary hotfix for -w parameter on node.js",
+    "main": "tscw.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/foglcz/tscw"
+    },
+    "bin": {
+        "tscw": "tscw.js"
+    },
+    "keywords": [
+        "Typescript",
+        "ts",
+        "watch",
+        "tscw"
+    ],
+    "author": "Pavel Ptacek <birdie@animalgroup.cz>",
+    "license": "WTFPL"
+}
