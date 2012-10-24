@@ -52,8 +52,10 @@ function recompile() {
     timer = null;
 
     process.stdout.write("  -> recompiling... ");
-    exec(tsc);
-    console.log('done!');
+    exec(tsc, function execDone(error, stdout, stderr) {
+        console.log('done!');
+        console.log(stderr);
+    });
 }
 
 /**

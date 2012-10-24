@@ -1,6 +1,6 @@
 {
     "name": "tscw",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Typescript watch compiler - temporary hotfix for -w parameter on node.js",
     "main": "tscw.js",
     "repository": {
