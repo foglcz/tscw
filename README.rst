@@ -18,7 +18,7 @@ Debugging of .ts files
 ======================
 On some platforms (definitely on Windows + node.js stack), there might be tsc command output stripped when invoked from
 external tools, like tscw. This results into the fact that development, as easied by tscw utility, will be much harder.
-This is cause by this bug_.
+This is caused by this bug_.
 
 The result is not-to-be-seen at first glance. Generally, you will see where the compilation stopped, but sometimes
 you might not see the reason for your .ts file not compiling. This is just wrong. Consider this output of tscw:
