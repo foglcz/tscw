@@ -17,8 +17,6 @@
         "tscw"
     ],
     "dependencies": {
-        "fs": "*",
-        "crypto": "*",
         "typescript": "*"
     },
     "author": "Pavel Ptacek <birdie@animalgroup.cz>",
